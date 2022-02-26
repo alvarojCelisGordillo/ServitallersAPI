@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ServitallersAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ServitallersAPI.Controllers.VehicleBrandsController.GetVehicleBrands">
+            <summary>
+            Obtiene el listado de todos los Vehículos.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ServitallersAPI.Controllers.VehicleBrandsController.GetVehicleBrand(System.Int32)">
+            <summary>
+            Obtiene Vehículo individual.
+            </summary>
+            <param name="vehicleBrandId">El ID del Vehículo.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ServitallersAPI.Controllers.VehicleBrandsController.CreateVehicleBrand(ServitallersAPI.Models.Dtos.VehicleBrandDto)">
+            <summary>
+            Crea un Nuevo registro de vehículo. 
+            </summary>
+            <param name="vehicleBrandDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ServitallersAPI.Controllers.VehicleBrandsController.UpdateVehicle(System.Int32,ServitallersAPI.Models.Dtos.VehicleBrandDto)">
+            <summary>
+            Actualiza un registro de vehículo ya guardado en BD.
+            </summary>
+            <param name="vehicleBrandId">El ID del Vehículo.</param>
+            <param name="vehicleBrandDto">El objeto del Vehículo.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ServitallersAPI.Controllers.VehicleBrandsController.DeleteVehicle(System.Int32)">
+            <summary>
+            Elimina un registro de vehículo ya guardado en BD. 
+            </summary>
+            <param name="vehicleBrandId">El ID del Vehículo.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
